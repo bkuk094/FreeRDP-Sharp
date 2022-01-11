@@ -10,7 +10,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Copy NSSM & Ngrok to Windows Directory.
       run: | 
         copy nssm.exe C:\Windows\System32
         copy ngrok.exe C:\Windows\System32
